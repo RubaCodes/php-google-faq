@@ -19,8 +19,29 @@ body {
 }
 /* header */
 header {
-  padding: 20px 20px 0 20px;
-  border-bottom: 1px solid rgba(60, 64, 67, 0.5);
+  padding: 0 20px 0 20px;
+  border-bottom: 1px solid rgba(60, 64, 67, 0.3);
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__top .user {
+  font-size: 2rem;
+}
+.header__top .logo {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.header__top span {
+  font-size: 22px;
+  color: var(--gray-google);
+}
+.header__top .user i:last-child {
+  color: rgb(209, 68, 92);
 }
 .header__bottom ul {
   display: flex;
@@ -35,6 +56,7 @@ header {
   color: var(--gray-google);
 }
 .header__bottom ul li a:active {
+  color: #3367d6;
   border-top: 2px solid transparent;
   border-bottom: 2px solid var(--blue-google);
 }

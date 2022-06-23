@@ -190,6 +190,8 @@ $faqs = [
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- google fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400@500;600;700&display=swap" rel="stylesheet">
     <!-- my style -->
@@ -199,7 +201,15 @@ $faqs = [
 
 <body>
     <header>
-        <div class="header__top"></div>
+        <div class="header__top">
+            <div class="logo">
+                <img height="60" src="https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fcdn.vox-cdn.com%2Fthumbor%2Fp01ezbiuDHgRFQ-htBCd7QxaYxo%3D%2F0x105%3A2012x1237%2F1600x900%2Fcdn.vox-cdn.com%2Fuploads%2Fchorus_image%2Fimage%2F47070706%2Fgoogle2.0.0.jpg&sp=1655993345T789763e624f188f4be782335d2181d45272311a4bca2e4bc23a916bc08785064" alt="logo google">
+                <span>Privacy & Terms</span>
+            </div>
+            <div class="user"><i class="fa-solid fa-bars"></i>
+                <i class="fa-solid fa-circle-user"></i>
+            </div>
+        </div>
         <div class="header__bottom">
             <ul>
                 <li><a href="#">Overview</a></li>
