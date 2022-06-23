@@ -28,6 +28,14 @@ h2 {
   line-height: 32px;
   padding: 64px 0 0 0;
 }
+h3 {
+  color: var(--gray-google);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0;
+  padding: 52px 0 0 0;
+}
 
 p {
   padding-top: 1.25rem;
@@ -36,8 +44,19 @@ p {
   line-height: 24px;
 }
 
+/* liste */
+ul,
+ol {
+  margin: 0 0 0 16px;
+  padding: 0;
+}
+li {
+  padding-top: 12px;
+  line-height: 24px;
+  padding-left: 16px;
+  font-size: 14px;
+}
 .container {
   max-width: 978px;
-  padding: 32px;
   margin: auto;
 }
