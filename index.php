@@ -72,7 +72,11 @@ $faqs = [
 </head>
 
 <body>
+    <div class="container">
+        <?php echo $faqs[0]["title"] ?>
+        <?php echo $faqs[0]["article"] ?>
 
+    </div>
 </body>
 
 </html>

@@ -7,6 +7,10 @@
   padding: 0;
 }
 
+:root {
+  --blue-google: #3367d6;
+}
+
 /* TIPOGRAFY */
 body {
   font-family: 'Inter', sans-serif;
@@ -14,5 +18,18 @@ body {
 
 a {
   text-decoration: none;
-  color: lightblue;
+  color: var(--blue-google);
+}
+
+p {
+  padding-top: 1.25rem;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.container {
+  max-width: 978px;
+  padding: 32px;
+  margin: auto;
 }
