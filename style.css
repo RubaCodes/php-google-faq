@@ -50,6 +50,7 @@ header {
 }
 .header__bottom ul li a {
   display: block;
+  padding-bottom: 10px;
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;
   text-decoration: none;
