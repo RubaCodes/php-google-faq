@@ -198,7 +198,10 @@ $faqs = [
 </head>
 
 <body>
-    <header></header>
+    <header>
+        <div class="header-top"></div>
+        <div class="header-bottom"></div>
+    </header>
     <main class="container">
         <?php foreach ($faqs as $faq) {
             echo $faq['title'];
@@ -207,8 +210,20 @@ $faqs = [
     </main>
     <footer>
         <div class="container">
-            <div class="footer__left"></div>
-            <div class="right"></div>
+            <div class="footer__left">
+                <ul>
+                    <li class="ad72vb"><a href="https://www.google.com/" class="KZ3Wad">Google</a></li>
+                    <li class="ad72vb"><a href="https://about.google/" class="KZ3Wad">About Google</a></li>
+                    <li class="ad72vb"><a href="privacy?hl=en-US" class="KZ3Wad">Privacy</a></li>
+                    <li class="ad72vb"><a href="terms?hl=en-US" class="KZ3Wad">Terms</a></li>
+                </ul>
+
+            </div>
+            <div class="footer__right">
+                <select value="english">
+                    <option>English</option>
+                </select>
+            </div>
         </div>
     </footer>
 </body>

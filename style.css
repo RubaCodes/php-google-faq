@@ -17,6 +17,8 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+/* header */
+
 /* main spudoratamente copiato a google */
 main a {
   text-decoration: none;
@@ -65,4 +67,30 @@ main li {
 /* footer */
 footer {
   background-color: var(--bg-footer);
+}
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+footer ul li {
+  line-height: 24px;
+}
+footer ul li:not(:first-child)::before {
+  content: '\0000b7';
+  padding: 0 5px;
+}
+footer ul li a {
+  text-decoration: none;
+  color: rgba(61, 61, 61, 0.8);
+  font-size: 13px;
+}
+
+.footer__right select {
+  padding-right: 36px;
 }
