@@ -18,7 +18,26 @@ body {
   font-family: 'Inter', sans-serif;
 }
 /* header */
-
+header {
+  padding: 20px 20px 0 20px;
+  border-bottom: 1px solid rgba(60, 64, 67, 0.5);
+}
+.header__bottom ul {
+  display: flex;
+  gap: 25px;
+  list-style: none;
+}
+.header__bottom ul li a {
+  display: block;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  text-decoration: none;
+  color: var(--gray-google);
+}
+.header__bottom ul li a:active {
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid var(--blue-google);
+}
 /* main spudoratamente copiato a google */
 main a {
   text-decoration: none;

@@ -199,8 +199,16 @@ $faqs = [
 
 <body>
     <header>
-        <div class="header-top"></div>
-        <div class="header-bottom"></div>
+        <div class="header__top"></div>
+        <div class="header__bottom">
+            <ul>
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Services</a></li>
+                <li><a href="#">Technologies</a></li>
+                <li><a href="#">FAQ</a></li>
+            </ul>
+        </div>
     </header>
     <main class="container">
         <?php foreach ($faqs as $faq) {
