@@ -51,6 +51,33 @@ $faqs = [
   showing this notice in Europe when a user searches for most names, not just
   pages that have been affected by a removal.
 </p>"
+    ],
+    [
+        'title' => "<h2>How does Google protect my privacy and keep my information secure?</h2>",
+        'article' => "<p>
+  We know security and privacy are important to you – and they are important to
+  us, too. We make it a priority to provide strong security and give you
+  confidence that your information is safe and accessible when you need it.
+</p>
+<p>
+  We’re constantly working to ensure strong security, protect your privacy, and
+  make Google even more effective and efficient for you. We spend hundreds of
+  millions of dollars every year on security, and employ world-renowned experts
+  in data security to keep your information safe. We also built easy-to-use
+  privacy and security tools like Google Dashboard, 2-step verification and Ads
+  Settings. So when it comes to the information you share with Google, you’re in
+  control.
+</p><p>
+  You can learn more about safety and security online, including how to protect
+  yourself and your family online, at the
+  <a href=" . "https://www.google.com/safetycenter/?hl=en_US" .
+            ">Google Safety Center</a
+  >.
+</p>
+<p>
+  <a href=" . "https://privacy.google.com?hl=en_US" . ">Learn more</a> about how we keep
+  your personal information private and safe — and put you in control.
+</p>"
     ]
 ]
 ?>
@@ -73,9 +100,10 @@ $faqs = [
 
 <body>
     <div class="container">
-        <?php echo $faqs[0]["title"] ?>
-        <?php echo $faqs[0]["article"] ?>
-
+        <?php foreach ($faqs as $faq) {
+            echo $faq['title'];
+            echo $faq['article'];
+        } ?>
     </div>
 </body>
 
