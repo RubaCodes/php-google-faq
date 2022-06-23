@@ -198,12 +198,19 @@ $faqs = [
 </head>
 
 <body>
-    <div class="container">
+    <header></header>
+    <main class="container">
         <?php foreach ($faqs as $faq) {
             echo $faq['title'];
             echo $faq['article'];
         } ?>
-    </div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__left"></div>
+            <div class="right"></div>
+        </div>
+    </footer>
 </body>
 
 </html>

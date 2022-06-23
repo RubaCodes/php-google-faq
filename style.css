@@ -10,25 +10,26 @@
 :root {
   --blue-google: #3367d6;
   --gray-google: #3c4043;
+  --bg-footer: #f5f5f5;
 }
 
 /* TIPOGRAFY */
 body {
   font-family: 'Inter', sans-serif;
 }
-
-a {
+/* main spudoratamente copiato a google */
+main a {
   text-decoration: none;
   color: var(--blue-google);
 }
-h2 {
+main h2 {
   color: var(--gray-google);
   font-weight: 600;
   font-size: 24px;
   line-height: 32px;
   padding: 64px 0 0 0;
 }
-h3 {
+main h3 {
   color: var(--gray-google);
   font-weight: 500;
   font-size: 18px;
@@ -37,7 +38,7 @@ h3 {
   padding: 52px 0 0 0;
 }
 
-p {
+main p {
   padding-top: 1.25rem;
   font-size: 14px;
   font-weight: 400;
@@ -45,12 +46,12 @@ p {
 }
 
 /* liste */
-ul,
-ol {
+main ul,
+main ol {
   margin: 0 0 0 16px;
   padding: 0;
 }
-li {
+main li {
   padding-top: 12px;
   line-height: 24px;
   padding-left: 16px;
@@ -59,4 +60,9 @@ li {
 .container {
   max-width: 978px;
   margin: auto;
+  padding: 32px 0;
+}
+/* footer */
+footer {
+  background-color: var(--bg-footer);
 }
